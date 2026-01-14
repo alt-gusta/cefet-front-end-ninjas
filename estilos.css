@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h1, h2 {
+  color: blueviolet;
+}
+
+strong {
+  color: blueviolet;
+}
+
+#logomarca {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+iframe, img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: "Press Start 2P", system-ui;;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: lime;
+}
+
+a:visited {
+  color: crimson;
+}
+
+a:active {
+  color: pink;
+}
+
+a:link {
+  color: blue;
+}
+
+a[href^="http"] {
+  background-image: url('img/globo.png');
+  background-repeat: no-repeat;
+  padding: 0 0 1px 20px;
+}
+
+.nota {
+  background-color: blanchedalmond;
+  opacity: 0.5;
+}
+
+.passo strong {
+  font-size: 24px;
+  color: brown;
+  background-color: blueviolet;
+  padding: 6px 12px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 50%;
+}
+
+p:nth-child(2n+1) {
+  text-align: right;
+}
+
+img:not([alt]) {
+  border: 5px solid red;
+}
